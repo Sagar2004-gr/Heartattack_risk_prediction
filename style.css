@@ -1,0 +1,78 @@
+.stApp {
+    background-color: #bad2f8;
+}
+
+h1 {
+    color: black !important;
+    text-align: center !important;
+}
+
+h1 {
+    background-color: white;
+    color: black !important;
+
+    padding: 15px;
+    border-radius: 12px;
+    margin: auto;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+p {
+    color: #555 !important;
+    text-align: center !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+
+}
+
+/* Labels */
+label {
+    color: #555 !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.stButton > button {
+    background-color: #2563eb !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+
+    font-size: 20px !important;
+    font-weight: bold !important;
+
+    border-radius: 10px !important;
+    border: none !important;
+    height: 60px !important;
+}
+
+/* Hover */
+.stButton > button:hover {
+    background-color: #1d4ed8 !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+[data-testid="stSuccess"] {
+    background-color: #166534 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 18px !important;
+}
+
+/* Inner Container */
+[data-testid="stSuccess"] > div {
+    background-color: #166534 !important;
+}
+
+/* Text */
+[data-testid="stSuccess"] p {
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+/* Icon */
+[data-testid="stSuccess"] svg {
+    fill: white !important;
+}
